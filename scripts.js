@@ -32,14 +32,14 @@ function zoomImg() {
         currWidth = currWidth + 100;
         currHeight = currHeight + 100;
         archiveImg.style.width = `${currWidth}` + "px";
-        archiveImg.style.height = `${currHeight}` + "px";
+        // archiveImg.style.height = `${currHeight}` + "px";
     });
 
     zoomMinus.addEventListener('click',()=> {
         currWidth = currWidth + -100;
         currHeight = currHeight + -100;
         archiveImg.style.width = `${currWidth}` + "px";
-        archiveImg.style.height = `${currHeight}` + "px";
+        // archiveImg.style.height = `${currHeight}` + "px";
     });
 }
 
